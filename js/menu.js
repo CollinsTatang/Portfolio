@@ -18,55 +18,51 @@ const form = document.querySelector('form');
 const projets = [
   {
     key: 0,
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    textDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    featuredImage: './images/c1.png',
+    name: 'School Directory',
+    description: 'Online school directory web application.',
+    textDescription: `This project is a supposed School Directory web application use to display the school content.
+    It consists of three pages and is responsive to mobile and desktop screens.`,
+    featuredImage: './images/html-cap.png',
     technologies: ['html', 'css', 'javascript'],
-    linkToLiveVersion: '#',
-    linkToSource: '#',
+    linkToLiveVersion: 'https://collinstatang.github.io/Directory_of_Schools/',
+    linkToSource: 'https://github.com/CollinsTatang/Directory_of_Schools.git',
   },
   {
     key: 1,
-    name: 'Multi-Post<br>Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    textDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    featuredImage: './images/c2.png',
-    technologies: ['html', 'css', 'javascript'],
-    linkToLiveVersion: '#',
-    linkToSource: '#',
+    name: 'Bookstore Website',
+    description: 'The Bookstore is a website that allows you to display a list of books, add a book, remove a selected book.',
+    textDescription: `The Bookstore is a website that allows you to display a list of books, 
+    add a book, remove a selected book. 
+    Categories page is coming soon`,
+    featuredImage: './images/react-bookstore.png',
+    technologies: ['html', 'css', 'React', 'Redux','API', 'netlify'],
+    linkToLiveVersion: 'https://m0rrighan.github.io/bookstore-react-redux/',
+    linkToSource: 'https://github.com/CollinsTatang/Bookstore-App.git',
   },
   {
     key: 2,
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    textDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    featuredImage: './images/c4.png',
-    technologies: ['html', 'css', 'javascript'],
-    linkToLiveVersion: '#',
-    linkToSource: '#',
+    name: 'LeaderBoard',
+    description: 'This app takes in user name and scores, process it with an API and displays user with the highest scores',
+    textDescription: `This app takes in user name and scores, 
+  process it with an API and displays user with the highest scores`,
+    featuredImage: './images/JSloarder.png',
+    technologies: ['html', 'css', 'javascript', 'API'],
+    linkToLiveVersion: 'https://unruffled-morse-c5ad81.netlify.app/',
+    linkToSource: 'https://github.com/CollinsTatang/LeaderBoard.git',
   },
   {
     key: 3,
-    name: 'Multi-Post<br>Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    textDescription: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-     when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-     It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent`,
-    featuredImage: './images/c3.png',
-    technologies: ['html', 'css', 'javascript'],
-    linkToLiveVersion: '#',
-    linkToSource: '#',
+    name: 'Twitter Bot',
+    description: 'This is a Twitter Bot built with Ruby that tweets some information about the user and sends a random retweet and quote.',
+    textDescription: `This is a twitter bot, it tweet and retweet on twitter.
+    I made this bot cause I use twitter a lot, so it was only logical. 
+    Also the Twitter API is very well documented and made it easy to implement on the project. 
+    It has been made using ruby with some classes to take the load from the main script.
+    I corrected the errors using Rubocop and used RSpec to do the testing.`, 
+    featuredImage: './images/ruby-bot.png',
+    technologies: ['Ruby', 'twitter API'],
+    linkToLiveVersion: 'https://twitter.com/BotCollins',
+    linkToSource: 'https://github.com/CollinsTatang/RubyCapstoneBot.git',
   },
 ];
 const getLink = (tab = []) => {
@@ -99,11 +95,11 @@ const addCard = ({
               <b>CANOPY</b>
               <span class="counter">
                   <img src="./images/Counter.png" alt="counter">
-                  Back End Dev
+                  Front End Dev
               </span>
               <span class="counter">
                   <img src="./images/Counter.png" alt="counter">
-                  2015
+                  2021
               </span>
           </div>
           <div class="card-content w-90">
