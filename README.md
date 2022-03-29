@@ -11,7 +11,7 @@ This project is one of the projects from my Microverse portfolio that aims to sh
 - LINTERS FOR HTML/CSS
 
 ## Live Demo
-
+Portfolio: [Live](https://lively-peony-67a590.netlify.app/)
 
 ## Authors
 
