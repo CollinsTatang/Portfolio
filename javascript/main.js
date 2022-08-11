@@ -4,10 +4,10 @@ const arr = [
     imageDesk: 'img/propelond.png',
     imageMob: 'img/propelond.png',
     title: 'Propelond Social Media',
-    description: "This application helps to connect users around different communities to socialize on the platform.",
+    description: "This application helps to connect users around different communities to socialize together.",
     live: 'https://propelond.com',
     source: 'https://github.com/Propelond-Team/propelond-backend',
-    tech: ['GitHub','Heroku', 'Cloudinary', 'Postman', 'APIs', 'PHP Laravel', ' MYSQL'],
+    tech: ['GitHub','Heroku', 'Cloudinary', 'Postman', 'APIs', 'PHP Laravel', ' MYSQL', 'Backend Developer'],
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const arr = [
     description: "HELP THE LESS PRIVILEGE (HELLEP) ASSOCIATION, is a non-profit humanitarian organisation that is optimistic in targeting and assisting less privileged persons to live sustainably by improving their living standards, through empowerment and community development programs.",
     live: 'https://hellep.org/',
     source: 'https://github.com/CollinsTatang/Hellep',
-    tech: [ 'GitHub','cPanel-Hosting','CSS','HTML5','Bootstrap', 'JavaScript', 'PHP Laravel', 'MYSQL'],
+    tech: [ 'GitHub','cPanel-Hosting','CSS','HTML5','Bootstrap', 'JavaScript', 'PHP Laravel', 'MYSQL', 'Full Stack Developer'],
   },
   {
     id: 3,
@@ -27,7 +27,7 @@ const arr = [
     description: "This is a Twitter Bot built with Ruby that tweets some information about the user and sends a random retweet and quote.",
     live: 'https://twitter.com/BotCollins',
     source: 'https://github.com/CollinsTatang/RubyCapstoneBot',
-    tech: ['Twitter Developer Tool', 'Twitter APIs', 'Github','Ruby'],
+    tech: ['Twitter Developer Tool', 'Twitter APIs', 'Github','Ruby', 'Backend Developer'],
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const arr = [
     description: "This project is a supposed School Directory web application use to display the school content. It consists of three pages and is responsive to mobile and desktop screens.",
     live: 'https://collinstatang.github.io/Directory_of_Schools/',
     source: 'https://github.com/CollinsTatang/Directory_of_Schools',
-    tech: ['Github','HTML5', 'CSS3'],
+    tech: ['Github','HTML5', 'CSS3', 'Frontend Developer'],
   },
   {
     id: 5,
@@ -47,7 +47,7 @@ const arr = [
     description: "This app takes in user name and scores, process it with an API and displays user with the highest scores",
     live: 'https://google.com',
     source: 'https://github.com/CollinsTatang/LeaderBoard.git',
-    tech: ['GitHub','HTML5', 'CSS3', 'JavaScript ES6', 'Bootstrap'],
+    tech: ['GitHub','HTML5', 'CSS3', 'JavaScript ES6', 'Bootstrap', 'Frontend Developer'],
   },
 ];
 let htmlstring = '';
