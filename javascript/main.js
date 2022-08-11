@@ -1,13 +1,13 @@
 const arr = [
   {
     id: 1,
-    imageDesk: 'img/loarder.png',
-    imageMob: 'img/loarder.png',
-    title: 'LeaderBoard',
-    description: "This app takes in user name and scores, process it with an API and displays user with the highest scores",
-    live: 'https://google.com',
-    source: 'https://github.com/CollinsTatang/LeaderBoard.git',
-    tech: ['GitHub','HTML5', 'CSS3', 'JavaScript ES6', 'Bootstrap'],
+    imageDesk: 'img/propelond.png',
+    imageMob: 'img/propelond.png',
+    title: 'Propelond Social Media',
+    description: "This application helps to connect users around different communities to socialize on the platform.",
+    live: 'https://propelond.com',
+    source: 'https://github.com/Propelond-Team/propelond-backend',
+    tech: ['GitHub','Heroku', 'Cloudinary', 'Postman', 'APIs', 'PHP Laravel', ' MYSQL'],
   },
   {
     id: 2,
@@ -29,7 +29,26 @@ const arr = [
     source: 'https://github.com/CollinsTatang/RubyCapstoneBot',
     tech: ['Twitter Developer Tool', 'Twitter APIs', 'Github','Ruby'],
   },
-  
+  {
+    id: 4,
+    imageDesk: 'img/htm_cap.png',
+    imageMob: 'img/htm_cap.png',
+    title: 'Online School Directory Web Application',
+    description: "This project is a supposed School Directory web application use to display the school content. It consists of three pages and is responsive to mobile and desktop screens.",
+    live: 'https://collinstatang.github.io/Directory_of_Schools/',
+    source: 'https://github.com/CollinsTatang/Directory_of_Schools',
+    tech: ['Github','HTML5', 'CSS3'],
+  },
+  {
+    id: 5,
+    imageDesk: 'img/loarder.png',
+    imageMob: 'img/loarder.png',
+    title: 'LeaderBoard',
+    description: "This app takes in user name and scores, process it with an API and displays user with the highest scores",
+    live: 'https://google.com',
+    source: 'https://github.com/CollinsTatang/LeaderBoard.git',
+    tech: ['GitHub','HTML5', 'CSS3', 'JavaScript ES6', 'Bootstrap'],
+  },
 ];
 let htmlstring = '';
 arr.forEach((item) => {
@@ -84,8 +103,8 @@ getprojbtn.forEach((item) => {
               <div class="title-and-btn">
                   <h2>${result.title}</h2>
                   <div class="btn-wrapper">
-                      <a href="${result.live}" class="btn-green" type="submit">See live <img src="img/popup-see.svg"></a>
-                      <a href="${result.source}" class="btn-green" type="submit">See source<img src="img/popup-GitHub.svg"></a>
+                      <a href="${result.live}" class="btn-green" target="_blank" type="submit">See live <img src="img/popup-see.svg"></a>
+                      <a href="${result.source}" class="btn-green" target="_blank" type="submit">See source<img src="img/popup-GitHub.svg"></a>
                   </div>
               </div>
               <div class="works">
