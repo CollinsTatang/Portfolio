@@ -47,7 +47,17 @@ const arr = [
     description: 'This app takes in user name and scores, process it with an API and displays user with the highest scores',
     live: 'https://collinstatang.github.io/LeaderBoard/dist/',
     source: 'https://github.com/CollinsTatang/LeaderBoard.git',
-    tech: ['GitHub', 'HTML5', 'CSS3', 'JavaScript ES6', 'Bootstrap', 'Frontend Developer'],
+    tech: ['GitHub', 'HTML5', 'CSS3', 'JavaScript ES6', 'Frontend Developer'],
+  },
+  {
+    id: 6,
+    imageDesk: 'img/math.png',
+    imageMob: 'img/math.png',
+    title: 'Math-Magicians',
+    description: 'Math magicians" is a website for all fans of mathematics. Built with ReactJs',
+    live: 'https://adoring-jackson-364b0f.netlify.app/',
+    source: 'https://github.com/CollinsTatang/math-magicians.git',
+    tech: ['React', 'CSS3', 'Collaborative', 'GitHub', 'Frontend Developer'],
   },
 ];
 let htmlstring = '';
