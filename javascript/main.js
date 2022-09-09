@@ -45,7 +45,7 @@ const arr = [
     imageMob: 'img/loarder.png',
     title: 'LeaderBoard',
     description: 'This app takes in user name and scores, process it with an API and displays user with the highest scores',
-    live: 'https://google.com',
+    live: 'https://collinstatang.github.io/LeaderBoard/dist/',
     source: 'https://github.com/CollinsTatang/LeaderBoard.git',
     tech: ['GitHub', 'HTML5', 'CSS3', 'JavaScript ES6', 'Bootstrap', 'Frontend Developer'],
   },
