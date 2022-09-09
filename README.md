@@ -1,11 +1,10 @@
-# Portfolio: preserve data in the browser
+# Portfolio
 > The project designed to improve coding skills and upgrading knowledgments on CSS, HTML, JavaScript.
 
 ## Built With
 - HTML, CSS, JavaScript
 - Github.
 - VSC: Git.
-- Node, NPM.
 
 ## Project Setup
 To get a local copy up and running follow these simple example steps.
@@ -54,7 +53,9 @@ npx hint .
 ```
 
 ## Visit My GitHub Page
+
  **_Live demo_** 
+[Live link](https://collinstatang.github.io/Portfolio/)
 
 ## Authors
 
