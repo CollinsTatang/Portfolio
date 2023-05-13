@@ -20,6 +20,16 @@ const arr = [
     tech: ['React', 'Redux', 'netlify', 'Github', 'Frontend Developer'],
   },
   {
+    id: 6,
+    imageDesk: 'img/updateDisplay.png',
+    imageMob: 'img/updataDisplay.png',
+    title: 'NodeJS CRUD Console App',
+    description: 'CRUD Console App permits users to Create Read Update and Delete items in the database file.',
+    live: 'https://github.com/CollinsTatang/NodeJS-CRUD-Console-App.git',
+    source: 'https://github.com/CollinsTatang/NodeJS-CRUD-Console-App.git',
+    tech: ['JavaScript','NodeJS', 'GitHub', 'Backend Developer'],
+  },
+  {
     id: 3,
     imageDesk: 'img/ruby_bot.png',
     imageMob: 'img/ruby_bot.png',
@@ -49,16 +59,7 @@ const arr = [
     source: 'https://github.com/CollinsTatang/Real-Time-Search.git',
     tech: ['GitHub', 'HTML5', 'Bootstrap', 'JavaScript','Ruby on Rails', 'Full Stack Developer'],
   },
-  {
-    id: 6,
-    imageDesk: 'img/math.png',
-    imageMob: 'img/math.png',
-    title: 'Math-Magicians',
-    description: 'Math magicians" is a website for all fans of mathematics. Built with ReactJs',
-    live: 'https://adoring-jackson-364b0f.netlify.app/',
-    source: 'https://github.com/CollinsTatang/math-magicians.git',
-    tech: ['React', 'CSS3', 'Collaborative', 'GitHub', 'Frontend Developer'],
-  },
+  
 ];
 let htmlstring = '';
 arr.forEach((item) => {
