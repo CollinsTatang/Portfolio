@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Makungong</title>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <div class="mob-background"></div>
+        <img src="img/header-llustration-desktop.png" alt="">
+        <div class="sub-header">
+            <nav>
+                <a href="/" class="logo-wrapper">Collins Tatang</a>
+                <div class="humburger-wrapper">
+                    <img src="img/menu-icon.png" alt="menu icon">               
+                </div>
+                <ul>
+                    <li class="linkclass"><a href="#targetid">Portfolio</a></li>
+                    <li class="linkclass"><a href="#about">About</a></li>
+                    <li class="linkclass"><a href="#form">Contact</a></li>
+                    <li class="aa closeclass">&times;</li>
+                    <li class="aa mob-l"></li>
+                </ul>
+            </nav>
+            <section class="banner-section">
+                <h1>
+                    <span>Hey there. I’m Collins Tatang</span>
+                    <span>I’m a Software Developer</span>
+                </h1>
+                <p>
+                    I have experience creating Software solution, features or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                    don’t hestiate to contact me.
+                </p>
+                <ul class="social">
+                    <li><a href="https://twitter.com/CollinsTatang1" target="_blank"><img src="img/twitter.svg" alt="twitter icon"></a></li>
+                    <li><a href="https://www.linkedin.com/in/makungong-collins/" target="_blank"><img src="img/linkedin-icon.svg" alt="linkedin icon"></a></li>
+                    <!-- <li><a href=""><img src="img/medium.svg" alt="medium icon"></a></li> -->
+                    <li><a href="https://github.com/CollinsTatang" target="_blank"><img src="img/github.svg" alt="github icon"></a></li>
+                    <li><a href="https://angel.co/u/makungong-collins" target="_blank"><img src="img/angellist.svg" alt="angrllist icon"></a></li>
+                </ul>
+                <a href="#targetid" class="arrow-wrapper"><img src="img/arrow-down.png" alt="arrow down"></a>
+            </section>
+        </div>        
+    </header>
+    <!-- WORKS SECTION -->
+    <section class="works">
+        <h2 id="targetid">My Recent Works</h2>
+        <div class="wrapper">
+          
+        </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <h2>About me</h2>
+        <div class="p-wrapper">
+            <p>
+             I am a full-stack remote web developer with four years of experience. I have worked on 20+ projects using HTML5, CSS3, JavaScript, Bootstrap, React and Redux, NodeJS, PHP, Laravel,  Ruby, and Ruby on Rails.
+                Currently, I’m a code reviewer at Microverse, an online software school that allows developers from all over the world to pair-program while coding 8 hours a day with real-world projects to be completed every week.
+                For turning into a developer I have spent the last several years working on a number of remote projects: from landing pages with ReactJS to Rails and Laravel APIs. At this time, I have been working on a social media app to link up small communities around me.
+            </p>
+        </div>
+        <a class="btn-green" target="_blank" href="https://docs.google.com/document/d/1JGxMN958YLBY4zD4RHu5ZlecW8eqa6QWCrdpGxsLZIo/edit?usp=sharing">Get My Resume</a>
+        <div class="items-wrapper ">
+            <div class="item-wrapper">
+                <div class="item">
+                    <div class="circle">
+                        <img src="img/icon-language.png" alt="">
+                    </div>
+                    <h4>Languages</h4>
+                    <ul>
+                        <li><a>HTML/CSS</a></li>
+                        <li><a>JavaScript</a></li>
+                        <li><a>Ruby</a></li>
+                        <li><a>PHP</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item-wrapper">
+                <div class="item">
+                    <div class="circle">
+                        <img src="img/icon-center.png" alt="">
+                    </div>
+                    <h4>Libraries/Frameworks</h4>
+                    <ul>
+                        <li><a>Bootstrap</a></li>
+                        <li><a>ReactJS</a></li>
+                        <li><a>NodeJS</a></li>
+                        <li><a>Ruby on Rails</a></li>
+                        <li><a>Laravel</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="item-wrapper">
+                <div class="item">
+                    <div class="circle">
+                        <img src="img/icon-right.png" alt="">
+                    </div>
+                    <h4>Skills</h4>
+                    <ul>
+                        <li><a>Github</a></li>
+                        <li><a>React</a></li>
+                        <li><a>NodeJS</a></li>
+                        <li><a>Laravel</a></li>
+                        <li><a>Ruby on Rails</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER SECTION -->
+    <section id="form" class="form">
+        <div class="left-col">
+            <h2>
+                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+            </h2>
+        </div>
+        <div class="right-col">
+             <form action="https://formspree.io/f/mqknveor" method="post">
+                <label for="fullname">Fullname</label>
+                <input id="fullname" type="text" name="username" maxlength="30" placeholder="Full name" required>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="useremail" placeholder="Email address" required>
+                <label for="textarea">Textarea</label>
+                <textarea id="textarea" name="usermessage" maxlength="500" placeholder="Enter text here" required></textarea>
+                <div class="errorclass">Please, enter email address in lowercase.</div>
+                <button class="btn-green" type="submit">Get in touch</button>
+             </form>
+        </div>
+    </section>
+    <section class="illustration">
+        <img src="img/Frame-1.png" alt="">
+        <img src="img/Frame-2.png" alt="">
+        <img class="last" src="img/Frame.png" alt="">
+    </section>
+    <footer>
+        <ul class="social">
+            <li><a href="https://twitter.com/CollinsTatang1" target="_blank"><img src="img/twitter.svg" alt="twitter icon"></a></li>
+            <li><a href="https://www.linkedin.com/in/makungong-collins/" target="_blank"><img src="img/linkedin-icon.svg" alt="linkedin icon"></a></li>
+            <!-- <li><a href=""><img src="img/medium.svg" alt="medium icon"></a></li> -->
+            <li><a href="https://github.com/CollinsTatang" target="_blank"><img src="img/github.svg" alt="github icon"></a></li>
+            <li><a href="https://angel.co/u/makungong-collins" target="_blank"><img src="img/angellist.svg" alt="angrllist icon"></a></li>
+        </ul>
+        <a href="makungongcollins@gmail.com">makungongcollins@gmail.com</a>
+        <span class="line"></span>
+    </footer>
+
+    <div class="popup-background">
+        <div class="popup">
+            <span class="aa closeclass">&times;</span>            
+        </div>
+    </div>
+  
+    <script src="javascript/main.js"></script>
+</body>
+</html>
