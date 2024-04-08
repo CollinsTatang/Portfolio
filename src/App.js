@@ -4,7 +4,7 @@ import Home from './components/Home';
 
 function App() {
   return (
-    <div className="bg-blue-500">
+    <div className="">
       <Header />
       <Home />
       <Footer />
