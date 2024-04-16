@@ -1,18 +1,30 @@
 import {
   Xicon,
   LinkedinIcon,
+  GithubIcon,
+  FacebookIcon,
 } from './Icons';
 
 const navigation = [
+  {
+    name: 'Github',
+    href: 'https://github.com/CollinsTatang',
+    icon: (props) => <GithubIcon {...props} />,
+  },
   {
     name: 'Twitter',
     href: 'https://twitter.com/CollinsTatang1',
     icon: (props) => <Xicon {...props} />,
   },
   {
-    name: 'LinkedinIcon',
+    name: 'Linkedin',
     href: 'https://www.linkedin.com/in/makungong-collins/',
     icon: (props) => <LinkedinIcon {...props} />,
+  },
+  {
+    name: 'Facebook',
+    href: 'https://www.facebook.com/el.collins.71',
+    icon: (props) => <FacebookIcon {...props} />,
   },
 ];
 
@@ -29,7 +41,7 @@ function Footer() {
           ))}
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
-          <p className="text-center text-xs leading-5 text-gray-500">
+          <p className="text-center text-xs leading-5 text-white">
             &copy; 2024 Collins Tatang, Inc. All rights reserved.
           </p>
         </div>
