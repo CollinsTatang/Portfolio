@@ -35,7 +35,7 @@ const arr = [
     imageDesk: 'img/search.png',
     imageMob: 'img/search.png',
     title: 'Real Time Search',
-    description: 'Permit users to perform a search on articles in real-time.',
+    description: 'Realtime search box, where users search articles, and have analytics that display what users were searching for.',
     live: 'https://real-time-search-e2z4.onrender.com/',
     source: 'https://github.com/CollinsTatang/Real-Time-Search.git',
     tech: ['Ruby on Rails','JavaScript','PostgreSQL', 'Render'],
