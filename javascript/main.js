@@ -1,23 +1,54 @@
 const arr = [
   {
     id: 1,
+    imageDesk: 'img/afroeat.png',
+    imageMob: 'img/afroeat.png',
+    title: 'AfroEat eCommerce Platform',
+    description: 'Afro Eat is an online restaurant app tailored to serve the diverse and vibrant African community.',
+    live: 'https://www.afroeatfoods.com/',
+    source: 'https://github.com/chrisafroeat/Afroeat_frontend.git',
+    tech: [ 'React', 'Next','Node', 'PostgreSQL', 'APIs', 'Software Developer'],
+  },
+  {
+    id: 2,
     imageDesk: 'img/propelond.png',
     imageMob: 'img/propelond.png',
     title: 'Propelond Social Media',
     description: 'This application helps to connect users around different communities to socialize together.',
     live: 'https://propelond.com',
     source: 'https://github.com/Propelond-Team/propelond-backend',
-    tech: ['GitHub', 'Heroku', 'Cloudinary', 'Postman', 'APIs', 'PHP Laravel', ' MYSQL', 'Backend Developer'],
+    tech: [ 'PHP Laravel', ' MYSQL','Heroku', 'Cloudinary', 'APIs', 'Backend Developer'],
+  },
+  
+  {
+    id: 3,
+    imageDesk: 'img/hellep.png',
+    imageMob: 'img/hellep.png',
+    title: 'Help The Less Privileged (HELLEP)',
+    description: 'HELP THE LESS PRIVILEGE (HELLEP) ASSOCIATION, is a non-profit humanitarian organisation that is optimistic in targeting and assisting less privileged persons to live sustainably by improving their living standards, through empowerment and community development programs.',
+    live: 'https://hellep.org/',
+    source: 'https://github.com/CollinsTatang/Hellep',
+    tech: ['HTML5/CSS', 'JavaScript', 'Bootstrap', 'PHP Laravel', 'MYSQL', 'Full Stack Developer'],
   },
   {
-    id: 2,
-    imageDesk: 'img/book.png',
-    imageMob: 'img/book.png',
-    title: 'Bookstore Web Application',
-    description: 'Bookstore websites enable users to perform CRUD on books in the store. This project is built using React and Redux connecting to an external Bookstore API',
-    live: 'https://celadon-croquembouche-384ba6.netlify.app/',
-    source: 'https://github.com/CollinsTatang/Bookstore-App.git',
-    tech: ['React', 'Redux', 'netlify', 'Github', 'Frontend Developer'],
+    id: 4,
+    imageDesk: 'img/search.png',
+    imageMob: 'img/search.png',
+    title: 'Real Time Search',
+    description: 'Permit users to perform a search on articles in real-time.',
+    live: 'https://real-time-search-e2z4.onrender.com/',
+    source: 'https://github.com/CollinsTatang/Real-Time-Search.git',
+    tech: ['Ruby on Rails','HTML','JavaScript','Bootstrap', 'Full Stack Developer'],
+  },
+  {
+    id: 5,
+    imageDesk: 'img/ruby_bot.png',
+    imageMob: 'img/ruby_bot.png',
+    title: 'Ruby Twitter Bot',
+    description: 'This is a Twitter Bot built with Ruby that tweets some information about the user and sends a random retweet and quote.',
+    live: 'https://twitter.com/BotCollins',
+    source: 'https://github.com/CollinsTatang/RubyCapstoneBot',
+    tech: ['Twitter Developer Tool', 'Twitter APIs', 'Ruby', 'Backend Developer'],
   },
   {
     id: 6,
@@ -27,37 +58,7 @@ const arr = [
     description: 'CRUD Console App permits users to Create Read Update and Delete items in the database file.',
     live: 'https://github.com/CollinsTatang/NodeJS-CRUD-Console-App.git',
     source: 'https://github.com/CollinsTatang/NodeJS-CRUD-Console-App.git',
-    tech: ['JavaScript','NodeJS', 'GitHub', 'Backend Developer'],
-  },
-  {
-    id: 3,
-    imageDesk: 'img/ruby_bot.png',
-    imageMob: 'img/ruby_bot.png',
-    title: 'Ruby Twitter Bot',
-    description: 'This is a Twitter Bot built with Ruby that tweets some information about the user and sends a random retweet and quote.',
-    live: 'https://twitter.com/BotCollins',
-    source: 'https://github.com/CollinsTatang/RubyCapstoneBot',
-    tech: ['Twitter Developer Tool', 'Twitter APIs', 'Github', 'Ruby', 'Backend Developer'],
-  },
-  {
-    id: 4,
-    imageDesk: 'img/hellep.png',
-    imageMob: 'img/hellep.png',
-    title: 'Help The Less Privileged (HELLEP)',
-    description: 'HELP THE LESS PRIVILEGE (HELLEP) ASSOCIATION, is a non-profit humanitarian organisation that is optimistic in targeting and assisting less privileged persons to live sustainably by improving their living standards, through empowerment and community development programs.',
-    live: 'https://hellep.org/',
-    source: 'https://github.com/CollinsTatang/Hellep',
-    tech: ['GitHub', 'cPanel-Hosting', 'CSS', 'HTML5', 'Bootstrap', 'JavaScript', 'PHP Laravel', 'MYSQL', 'Full Stack Developer'],
-  },
-  {
-    id: 5,
-    imageDesk: 'img/search.png',
-    imageMob: 'img/search.png',
-    title: 'Real Time Search',
-    description: 'Permit registers users to perform a search on articles in real-time',
-    live: 'https://helpjuice-7kfb.onrender.com',
-    source: 'https://github.com/CollinsTatang/Real-Time-Search.git',
-    tech: ['GitHub', 'HTML5', 'Bootstrap', 'JavaScript','Ruby on Rails', 'Full Stack Developer'],
+    tech: ['JavaScript','NodeJS', 'Backend Developer'],
   },
   
 ];
@@ -65,7 +66,10 @@ let htmlstring = '';
 arr.forEach((item) => {
   let string = `
     <div class="work-item">
-      <div class="div-wrapper"></div>
+      <div class="div-wrapper">
+      <img src="${item.imageMob}" alt="" height="200">
+      </div>
+      
       <div class="bottom-part">
           <h4>${item.title}</h4>
           <ul>`;
