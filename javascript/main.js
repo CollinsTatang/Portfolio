@@ -20,26 +20,26 @@ const arr = [
     tech: [ 'PHP Laravel',' MYSQL','Cloudinary','Heroku'],
   },
   
-  // {
-  //   id: 3,
-  //   imageDesk: 'img/hellep.png',
-  //   imageMob: 'img/hellep.png',
-  //   title: 'Help The Less Privileged (HELLEP)',
-  //   description: 'HELP THE LESS PRIVILEGE (HELLEP) ASSOCIATION, is a non-profit humanitarian organisation that is optimistic in targeting and assisting less privileged persons to live sustainably by improving their living standards, through empowerment and community development programs.',
-  //   live: 'https://hellep.org/',
-  //   source: 'https://github.com/CollinsTatang/Hellep',
-  //   tech: ['HTML5/CSS', 'JavaScript', 'Bootstrap', 'PHP Laravel', 'MYSQL', 'Full Stack Developer'],
-  // },
   {
     id: 3,
-    imageDesk: 'img/search.png',
-    imageMob: 'img/search.png',
-    title: 'Real Time Search',
-    description: 'Realtime search box, where users search articles, and have analytics that display what users were searching for.',
-    live: 'https://real-time-search-e2z4.onrender.com/',
-    source: 'https://github.com/CollinsTatang/Real-Time-Search.git',
-    tech: ['Ruby on Rails','JavaScript','PostgreSQL', 'Render'],
+    imageDesk: 'img/hellep.png',
+    imageMob: 'img/hellep.png',
+    title: 'Help The Less Privileged (HELLEP)',
+    description: 'HELP THE LESS PRIVILEGE (HELLEP) ASSOCIATION, is a non-profit humanitarian organisation that is optimistic in targeting and assisting less privileged persons to live sustainably by improving their living standards, through empowerment and community development programs.',
+    live: 'https://hellep.org/',
+    source: 'https://github.com/CollinsTatang/Hellep',
+    tech: ['HTML5/CSS', 'JavaScript', 'Bootstrap', 'PHP Laravel', 'MYSQL', 'Full Stack Developer'],
   },
+  // {
+  //   id: 3,
+  //   imageDesk: 'img/search.png',
+  //   imageMob: 'img/search.png',
+  //   title: 'Real Time Search',
+  //   description: 'Realtime search box, where users search articles, and have analytics that display what users were searching for.',
+  //   live: 'https://real-time-search-e2z4.onrender.com/',
+  //   source: 'https://github.com/CollinsTatang/Real-Time-Search.git',
+  //   tech: ['Ruby on Rails','JavaScript','PostgreSQL', 'Render'],
+  // },
   
 ];
 let htmlstring = '';
