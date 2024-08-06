@@ -13,7 +13,7 @@ const arr = [
     id: 2,
     imageDesk: 'img/propelond.png',
     imageMob: 'img/propelond.png',
-    title: 'Propelond Social Media',
+    title: 'Propelond Social Media Platform',
     description: 'This application helps to connect users around different communities to socialize together.',
     live: 'https://propelond.com',
     source: 'https://github.com/Propelond-Team/propelond-backend',
