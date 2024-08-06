@@ -7,7 +7,7 @@ const arr = [
     description: 'Afro Eat is an online restaurant app tailored to serve the diverse and vibrant African community.',
     live: 'https://www.afroeatfoods.com/',
     source: 'https://github.com/chrisafroeat/Afroeat_frontend.git',
-    tech: [ 'React', 'Next','Node', 'PostgreSQL', 'Render'],
+    tech: [ 'React','Next','Node','PostgreSQL','Vercel','Render','Software Developer'],
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const arr = [
     description: 'This application helps to connect users around different communities to socialize together.',
     live: 'https://propelond.com',
     source: 'https://github.com/Propelond-Team/propelond-backend',
-    tech: [ 'PHP Laravel',' MYSQL','Cloudinary','Heroku'],
+    tech: ['PHP Laravel',' MYSQL','Cloudinary','Heroku','Backend Developer'],
   },
   
   {
@@ -28,7 +28,7 @@ const arr = [
     description: 'HELP THE LESS PRIVILEGE (HELLEP) ASSOCIATION, is a non-profit humanitarian organisation that is optimistic in targeting and assisting less privileged persons to live sustainably by improving their living standards, through empowerment and community development programs.',
     live: 'https://hellep.org/',
     source: 'https://github.com/CollinsTatang/Hellep',
-    tech: ['HTML5/CSS', 'JavaScript', 'Bootstrap', 'PHP Laravel', 'MYSQL', 'Full Stack Developer'],
+    tech: ['HTML5/CSS3', 'JavaScript','PHP Laravel','MYSQL','cPanel','Full Stack Developer'],
   },
   // {
   //   id: 3,
